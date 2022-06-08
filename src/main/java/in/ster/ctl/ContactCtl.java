@@ -58,6 +58,5 @@ public class ContactCtl {
 		return "success";
 	}
 
-	@RequestMap
 	
 }
