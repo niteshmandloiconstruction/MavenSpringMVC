@@ -21,4 +21,11 @@ public class CentralizedExcptionHandler {
 			System.out.println("NumberFormat Exception Occur");
 			return "about";
 		}
+		
+		@ExceptionHandler(value = ClassNotFoundException.class)
+		public String exceptionHandlerClassNotFound() {
+
+			System.out.println("NumberFormat Exception Occur");
+			return "about";
+		}
 }
