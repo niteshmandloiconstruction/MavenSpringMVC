@@ -17,29 +17,15 @@ public class ExceptionHandleCtl {
 		return "xxyz";
 	}
 
-	//Handle exception in mvc using @Exception Handler
 	
-	@ExceptionHandler(value = NullPointerException.class)
-	public String exceptionHandlerNull() {
-
-		System.out.println("Null pointer Exception Occur");
-		return "abc";
-	}
-
-	@ExceptionHandler(value = NumberFormatException.class)
-	public String exceptionHandlerNumber() {
-
-		System.out.println("NumberFormat Exception Occur");
-		return "abc";
-	}
 
 	
-	//handle multiple exception in one method
+	/*//handle multiple exception in one method
 	@ExceptionHandler(value = NumberFormatException.class)
 	public String exceptionHandlerSare() {
 
 		System.out.println("NumberFormat Exception Occur");
 		return "abc";
-	}
+	}*/
 	
 }
